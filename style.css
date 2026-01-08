@@ -1,0 +1,68 @@
+/* -------------------- Body & Background -------------------- */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe6f0; /* Soft pastel pink background */
+    color: #333; /* Dark text for readability */
+}
+
+/* -------------------- Google Form Button -------------------- */
+.form-button {
+    display: block;
+    width: 220px;
+    margin: 30px auto;
+    padding: 14px 20px;
+    text-align: center;
+    background-color: #ffb6c1; /* Pastel pink button */
+    color: #333; /* Dark text */
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 12px;
+    border: 2px solid #333; /* subtle black border */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+    transition: all 0.3s ease;
+}
+.form-button:hover {
+    background-color: #ffc0cb;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0,0,0,0.2);
+}
+
+/* -------------------- Headings -------------------- */
+h1, h2, h3 {
+    color: #ff99b3; /* Slightly darker pastel pink */
+    text-align: center;
+    margin: 20px 0 10px;
+}
+
+/* -------------------- Paragraphs -------------------- */
+p, .intro-text {
+    text-align: center;
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto 20px;
+    color: #333;
+}
+
+/* -------------------- Content Sections / Boxes -------------------- */
+.content-section {
+    background-color: #fff0f5; /* Very soft pink box */
+    padding: 20px 30px;
+    margin: 20px auto;
+    border-radius: 12px;
+    max-width: 800px;
+    border: 2px solid #ffb6c1; /* pastel pink border */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* small black shadow */
+}
+
+/* -------------------- Links -------------------- */
+a {
+    color: #ff99b3;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff66a1;
+    text-decoration: underline;
+}
